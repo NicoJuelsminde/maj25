@@ -1,0 +1,75 @@
+﻿#menuWrapper
+{
+    display:table-cell;
+    width: 17.6% !important;
+    /* background-image:url("../images/menuBgFp9.jpg"); */
+    background-image: url("../images/Background-pattern.svg");
+    background-color: rgb(28, 95, 163);
+	/* background-position: 50%; */
+    background-size: 1000px;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100px;
+}
+
+
+#bottomMenu {
+    position: fixed;
+    height:40px;
+    bottom:0px;
+    width: 100%;
+    background:gray;
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+    background-image:url("../images/menuBgFsLaying.jpg");
+    background-size:100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    z-index: 1000;
+}
+
+#taskNumber {
+    position: absolute;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    /* bottom: 20px; */
+    left: 0;
+    /* width: 205px; */
+    color: #ffffff;
+    /* margin-top: 100px; */
+    /* text-align: center; */
+    /* font-size: 0.6em; */
+    height: 20px;
+    padding-top: 150px;
+    line-height: 20px;
+    /* margin-left: 20%;
+    margin-right: 5%; */
+}
+
+.subLinkActive a {
+    color: red;
+}
+
+.titleColor {
+    color: rgb(28, 95, 163);
+}
+
+#menu .rootMenu a,
+#menu .rootLinkActive a,
+#menu .rootMenu a:visited,
+#menu .rootLinkActive a:visited {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1.2em;
+    padding: 12px 15px;
+}
+
+#menu .rootLinkActive a,
+#menu .rootLinkActive a:visited {
+    color: #FFDA00;
+}
+

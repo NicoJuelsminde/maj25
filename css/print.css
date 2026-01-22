@@ -1,0 +1,110 @@
+/* @media print (this is automatically media print because of funtion in builder.js { } */
+body {
+   margin: 10mm;
+   overflow: visible !important;
+   background: none !important;
+}
+
+.wrapper {
+   width: 100%;
+}
+
+#menuWrapper,
+.top,
+.tox-editor-container .tox-editor-header,
+.print-btn,
+.tox .tox-editor-container,
+.tox-tinymce,
+.print-hide {
+   display: none !important;
+}
+
+#hidden-unilogin-text,
+#hidden-tinymce-text,
+#hidden-tinymce-text p {
+   display: block;
+   font-size: 16px;
+   line-height: 27px;
+}
+
+.tox .tox-editor-container {
+   display: none;
+}
+
+.main,
+.tox-tinymce {
+   border: none !important;
+}
+
+html {
+   background: none !important;
+}
+
+ul {
+   list-style-type: disc;
+   padding-left: 20px;
+}
+
+ul li {
+   display: list-item;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+}
+
+#hidden-unilogin-text {
+   display: block;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 30px;
+   padding: 10px;
+   text-align: center;
+   background-color: white;
+   border-bottom: 1px solid black;
+   z-index: 1000;
+}
+
+.page-header {
+   display: block;
+}
+
+.page-header,
+.page-header-space {
+   height: 80px;
+   display: block;
+}
+
+thead {
+   display: table-header-group;
+}
+
+body {
+   margin: 0;
+}
+
+.tables-container {
+   margin-top: -80px;
+}
+
+.tables-container table {
+   border-collapse: collapse;
+}
+
+@-moz-document url-prefix() {
+
+   .tables-container table,
+   .tables-container th,
+   .tables-container td {
+      border: 2px solid black;
+      border-collapse: collapse;
+   }
+}
